@@ -1,5 +1,4 @@
 # Bitcoin Overview
-![Alt text](pages/img.png?raw=true "BTCLOGO1")
 This website is entirly free open source software. However the pictures are from [Freepik](https://www.freepik.com/). They need to be credited.
 
 If you want to you can add content to the original Website [placeHolder4DomainName](#) or host your own fork of it.
