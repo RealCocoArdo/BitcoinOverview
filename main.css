@@ -1,0 +1,356 @@
+/* Color collection:
+White
+Bache          #ece9e4
+Light Blue     #ecf1f2
+Light grey     #a4a4a4
+Dark grey      #828282 */
+ 
+ /*########################################################################## Desktop-Version: ######################################################################*/
+
+ html{
+    scroll-behavior: smooth;
+ }
+    h1{
+        font-size: 210%;
+    }
+    h7{
+        font-size: 60%;
+    }
+
+    body{
+        /* background: white; */
+        background-image: linear-gradient(45deg, transparent 0%, transparent 55%,rgba(64, 64, 64,0.04) 55%, rgba(64, 64, 64,0.04) 76%,transparent 76%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 14%,rgba(64, 64, 64,0.04) 14%, rgba(64, 64, 64,0.04) 41%,transparent 41%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 2%,rgba(64, 64, 64,0.04) 2%, rgba(64, 64, 64,0.04) 18%,transparent 18%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 61%,rgba(64, 64, 64,0.04) 61%, rgba(64, 64, 64,0.04) 71%,transparent 71%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+        color: Black;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+        
+
+            nav{
+                background: white;
+                display: flex;
+                justify-content: center;
+                border-bottom: 3px solid #828282;
+                padding: 0 20% 0 -18%;
+            }
+                nav div{
+                    background-color: white;          /*RED*/
+                    margin: 2vh 0 2vh -10%; 
+                    padding: 0 0 0 0;
+                    width: 80px;
+                    height: 0;
+                }
+                    nav div img{
+                        width: 80px;
+                    }
+                    nav div a:hover{
+                        opacity: 0.6;
+                    }
+
+                .Topbar{
+                    background: white;              /*RED*/
+                    margin: 2vh 0 2vh 10%;
+                    padding: 0;
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    line-height: 30px;
+                }
+                    .Topbar li{
+                        background: white;
+                        color: rgb(70, 206, 240);
+                        padding: 9% 3% 9% 3%;
+                    }
+                    .Topbar li a{
+                        color: black;
+                        text-decoration: none;
+                    }
+                    .Topbar li a:hover{
+                        color: rgb(70, 206, 240);
+                    }
+                    
+
+    .hStart{
+        background: url(pictures/Home.png);        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        padding-top: 2%;
+        padding-bottom: 3%;
+    }
+            .Hello {
+                border: 5px solid #a4a4a4;
+                border-radius: 25px;
+                background: white;
+                padding: 2% 5% 2% 5%;
+                margin: 2% 15% 1% 15%;
+            }
+                .Hello ul{
+                    padding: 0;
+                    margin: 0;
+                    display: flex;
+                    flex-direction: row;
+                }   
+                    .Hello li{
+                        margin-left: 5%;
+                        list-style: none;
+                        text-decoration: none;
+                    }
+                    .Hello img{
+                        height: 70%;
+                    }
+                .Hello h1{
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    margin: 0 0 3% 0;
+                }
+                .Hello h2, .Hello h4{
+                    margin: 0%;
+                }
+
+
+    
+    .kStart{
+        background: url(pictures/Knowledge3.png);
+    }
+    .tStart{
+        background: url(pictures/Tools.png);
+    }
+    .sStart{
+        background: url(pictures/shopping.png);
+    }
+    .soStart{
+        background: url(pictures/Social.png);
+    }
+    .pStart{
+        background: url(#);
+    }
+    .iStart, .ppStart{
+        margin: 5% 14% 2.5% 14%;
+        padding: 1%;
+        background-color: #828282;
+        border: 5px solid #a4a4a4;
+        border-radius: 25px;
+        color: white;
+    }
+    .kStart, .tStart, .sStart, .soStart, .pStart{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 7%;
+        border-bottom: 3px solid #828282;
+    }
+        .kStart ul, .tStart ul, .sStart ul, .soStart ul, .pStart ul{
+            padding: 0;
+            margin: 4.1% 30% 0% 30%;
+        }
+            .kStart li, .tStart li, .sStart li, .soStart li, .pStart li{
+                padding: 1% 0 1% 0;
+                margin: 0 0 5% 0;
+                background-color: #828282;
+                border: 5px solid #a4a4a4;
+                border-radius: 25px;
+                list-style: none;
+                text-decoration: none;
+                text-align: center;
+            }
+                .kStart li a, .tStart li a, .sStart li a, .soStart li a, .pStart li a{
+                    color: white;
+                    text-decoration: none;
+                }
+                   .kStart li a:hover, .tStart li a:hover, .sStart li a:hover, .soStart li a:hover, .pStart li a:hover{
+                        color: rgb(70, 206, 240);
+                    }
+
+      
+
+        .FirstSection, .SecondSection, .ThirdSection, .FourthSection{
+            flex-direction: column;
+            padding: 5% 15% 5% 15%;
+            border-bottom: 2px solid #828282;
+        }
+            .FirstSection a, .SecondSection a, .ThirdSection a, .FourthSection a{
+                color: #a4a4a4;
+                text-decoration: none;
+            }
+            .FirstSection h3, .SecondSection h3, .ThirdSection h3, .FourthSection h3{
+                border-top: 2px solid #828282;
+            }
+                .FirstSection a:hover, .SecondSection a:hover, .ThirdSection a:hover, .FourthSection a:hover{
+                    color: rgb(70, 206, 240);
+                }
+            .FirstSection img, .SecondSection img, .ThirdSection img, .FourthSection img{
+                width: 100%;
+            }
+
+        button{
+            border: 1px solid darkgrey;
+        }
+
+        button:hover{
+            background-color: rgb(70, 206, 240);
+        }
+
+        #i1, #i2{
+            display: none;
+        }
+        #k1, #k2, #k3, #k4, #k5, #k6, #k7, #k8, #k9, #k10, #k11, #k12, #k13, #k14, #k15, #k16, #k17, #k18, #k19, #k20, #k21, #k22, #k23, #k24, #k25, #k26, #k27, #k28, #k29, #k30, #k31, #k32, #k33, #k34, #k35{
+            display: none;
+        }
+        #t1, #t2, #t3, #t4, #t5, #t6, #t7, #t8{
+            display: none;
+        }
+        #s1, #s2, #s3, #s4, #s5, #s6, #s7, #s8, #s9, #s10, #s11, #s12, #s13, #s14, #s15, #s16, #s17{
+            display: none;
+        }
+        #so1, #so2, #so3, #so4, #so5, #so6, #so7, #so8, #so9, #so10, #so11, #so12, #so13, #so14, #so15, #so16, #so17, #so18, #so19, #so20, #so21{
+            display: none;
+        }
+        #p1, #p2, #p3, #p4, #p5{
+            display: none;
+        }
+
+        #allcontent{
+            opacity: 0.3;
+        }
+        .popup{
+            margin: 20px 14% 77px 14%;
+            padding: 50px 20px 30px 20px;
+            background-color: #828282;
+            border: 5px solid #a4a4a4;
+            border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+        }
+            .popup img{
+                height: 100px;
+            }
+
+            #hv{
+                padding: 10px;
+            }    
+            #demo{
+                padding: 10px 0 10px 20px;
+                display: block; /*inline before*/
+                align-content: center;
+            }
+
+        #sensetivdata{
+            display: none;
+        }
+        
+
+
+    .footeroverview{
+        background: #a4a4a4;
+        color: white;
+        padding: 2.2vh 0 2.2vh 0;
+        }
+        .listoverview{
+            list-style-type: none;
+            margin: 0%;
+            padding-left: 0%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+            .listoverview li{
+                padding-top: 1%;
+                padding-right: 5%;
+            }
+                .listoverview li img{
+                    width: 45px;    
+                }
+                .listoverview li a:hover{
+                    opacity: 0.5;
+                }
+
+
+    .footerimpressum{
+        background: #828282;
+        color: white;
+    }
+        .listimpressum{
+            list-style-type: none;
+            margin: 0%;
+            padding-left: 0%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+            .listimpressum li{
+                margin: 0%;
+                padding: 0%;
+                padding-right: 5%;
+            }
+                .listimpressum li a{
+                    color: white;
+                    text-decoration: none;                    
+                }
+                    .listimpressum li a:hover{
+                        color: rgb(70, 206, 240);
+                    }
+
+    #top{
+        color: rgb(255, 166, 0);
+    }
+
+/*################################################################################### Mobile-Version: ######################################################################*/
+
+@media (max-width:1100px) {
+
+    h1{
+        font-size: 190%;
+    }
+            nav div{
+                width: 0;
+            }
+                nav div img{
+                    width: 0;
+                }
+            
+            .Topbar{
+                margin: 2vh 0 2vh 10%;
+            }
+
+        .hStart{ 
+            background-size: 100% 100%;
+            padding-top: 5%;
+            padding-bottom: 8%;
+        }
+            .Hello{
+                padding: 5%;
+            }
+                .Hello h1{
+                    margin: 0 0 10% 0;
+                }
+                .Hello ul{
+                    padding: 0;
+                    margin: 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                    .Hello li{
+                        margin-bottom: 8%;
+                        list-style: none;
+                        text-decoration: none;
+                    }
+
+        .kStart ul, .tStart ul, .sStart ul, .soStart ul{
+            margin: 6% 26% 0% 26%;
+        }
+
+    .listimpressum{
+        flex-direction: column;
+    }
+
+    .listimpressum li{
+        padding-left: 15%;
+    }
+}
