@@ -17,7 +17,7 @@ In case you struggle with Github or only want add something small you can contac
 3. placeHolder4DomainName is restricted by the terms of use of the hosting provider.
 
 ## Were do the donations of placeHolder4DomainName go to?
-The donations will be shared amount the Maintainers.
+The donations will be shared amoung the Maintainers.
 
 ## Who's maintaing placeHolder4DomainName?
 The core maintainer and founder is Coco_Ardo.
