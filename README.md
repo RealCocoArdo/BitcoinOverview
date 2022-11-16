@@ -24,8 +24,11 @@ If you want to you can add content to the original Website [BitcoinOverview.org]
 Make a pull-request or Issue where you explain what changes you would make.
 ### Contact a Maintainer
 In case you struggle with Github or only want add something small you can contact a Maintaier via social media.
+### Goals
+* Having a Website were unexpirienced and expirienced users are able to find everything the want to know about Bitcoin.
+* Providing the source information. No self created content.
 ### Rules
-1. BitcoinOverview.org doesn't allow promotion of Fiat or Shitcoin related content.
+1. BitcoinOverview.org doesn't allow the promotion of Fiat or Shitcoin related content.
 * That includes trading.
 * Altcoins are shitcoins.
 * Informational content is ok, as long as it had an important impact on Bitcoin.
