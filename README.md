@@ -5,8 +5,8 @@ I had some issues setting up the DNS etc.. Help is appriciated.
 
 ---
 
-![Screenshot of index.html](screenshots/index.PNG)![Screenshot of Knowledge.html](screenshots/Knowledge.PNG)
-![Screenshot of Knowledge.html](screenshots/Knowledge2.PNG)![Screenshot of Social.html](screenshots/Social.PNG)
+![Screenshot of Knowledge.html](screenshots/Knowledge.PNG)
+![Screenshot of Knowledge.html](screenshots/Knowledge2.PNG)
 
 ---
 
