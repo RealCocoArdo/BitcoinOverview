@@ -7,6 +7,7 @@ I had some issues setting up the DNS etc.. Help is appriciated.
 
 ![Screenshot of Knowledge.html](screenshots/Knowledge.PNG)
 ![Screenshot of Knowledge.html](screenshots/Knowledge2.PNG)
+![Mobile screenshot of Knowledge.html](screenshots/MobileKnowledge.PNG)
 
 ---
 
