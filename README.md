@@ -5,7 +5,7 @@
 
 This website is entirly free open source software. However the backgroundpictures are from [Freepik](https://www.freepik.com/). They need to be credited.
 
-If you want to you can add content to the original Website [BitcoinOverview.org](BitcoinOverview.org) or host your own fork of it.
+If you want to you can add content to the original Website [BitcoinOverview.org](https://BitcoinOverview.org) or host your own fork of it.
 
 ---------------
 
