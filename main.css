@@ -80,6 +80,14 @@ Dark grey      #828282 */
         padding-top: 2%;
         padding-bottom: 3%;
     }
+        .hStart a{
+            color: rgb(0, 47, 255);
+            text-decoration: none;
+        }
+            .hStart a:hover{
+                color: rgb(70, 206, 240);
+            }
+
             .Hello {
                 border: 5px solid #a4a4a4;
                 border-radius: 25px;
