@@ -9,6 +9,11 @@ If you want to you can add content to the original Website [BitcoinOverview.org]
 
 ---------------
 
+# Disclamer Bitcoinoverview.org is currently not hosted
+I had some issues setting up the DNS etc.. Help is appriciated. 
+
+---------------
+
 ## Adding content to BitcoinOverview.org
 ### Open a pull-request
 Make a pull-request where you explain what changes you would make.
