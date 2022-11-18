@@ -7,7 +7,7 @@ I had some issues setting up the DNS etc.. Help is appriciated.
 The website has still many basic construction sites. Empty containers or notes that need more attention.
 And with the growth of content around Bitcoin it probably will never be "finished"
 ### FOSS
-This website is entirly free open source software. However the backgroundpictures are from [Freepik](https://www.freepik.com/). They need to be credited.
+This code has a [MIT License](LICENSE.txt). The backgroundpictures are from [Freepik](https://www.freepik.com/). They need to be credited.
 
 If you want to you can add content to the original Website [BitcoinOverview.org](https://BitcoinOverview.org) or host your own fork of it.
 
@@ -23,7 +23,7 @@ If you want to you can add content to the original Website [BitcoinOverview.org]
 ### Open a pull-request or Issue
 Make a pull-request or Issue where you explain what changes you would make.
 ### Contact a Maintainer
-In case you struggle with Github or only want add something small you can contact a Maintaier via social media.
+In case you struggle with Github or only want add something small you can contact a Maintainer via social media.
 ### Goals
 * Having a Website were unexpirienced and expirienced users are able to find everything the want to know about Bitcoin.
 * Providing the source information. No self created content.
