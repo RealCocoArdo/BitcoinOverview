@@ -1,15 +1,25 @@
 # Bitcoin Overview
 
+---
+
 ## Disclamer 
 ### Bitcoinoverview.org is currently not hosted
-I had some issues setting up the DNS etc.. Help is appriciated.
+I had some issues setting up the DNS etc. Help is appriciated.
 ### The Website isn't finished yet
 The website has still many basic construction sites. Empty containers or notes that need more attention.
 And with the growth of content around Bitcoin it probably will never be "finished"
 ### FOSS
 This code has a [MIT License](LICENSE.txt). The backgroundpictures are from [Freepik](https://www.freepik.com/). They need to be credited.
 
-If you want to you can add content to the original Website [BitcoinOverview.org](https://BitcoinOverview.org) or host your own fork of it.
+If you want to you can add content to the original website [BitcoinOverview.org](https://BitcoinOverview.org) or host your own fork of it.
+
+---
+
+## Review the website offline
+1. [Download](https://github.com/RealCocoArdo/BitcoinOverview/archive/refs/heads/main.zip) and save the code.
+2. Open the folder were you saved the code.
+3. Unzip the downloaded file to a directory of your choice. Ideally in the same folder were you saved the .zip file.
+4. Open the folder. Press right click on the "index.html" file and select "Open with" and choose your favourite browser.
 
 ---
 
@@ -23,9 +33,9 @@ If you want to you can add content to the original Website [BitcoinOverview.org]
 ### Open a pull-request or Issue
 Make a pull-request or Issue where you explain what changes you would make.
 ### Contact a Maintainer
-In case you struggle with Github or only want add something small you can contact a Maintainer via social media.
+In case you struggle with Github or only want add something small you can contact Coco_Ardo via social media.
 ### Goals
-* Having a Website were unexpirienced and expirienced users are able to find everything the want to know about Bitcoin.
+* Having a Website were unexpirienced and expirienced users are able to find **everything** they want to know about Bitcoin.
 * Providing the source information. No self created content.
 ### Rules
 1. BitcoinOverview.org doesn't allow the promotion of Fiat or Shitcoin related content.
