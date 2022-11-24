@@ -49,5 +49,23 @@ In case you struggle with Github or you just want to add something small you can
 
 ---
 
+## Compatibility
+### Browsers
+The website should be displayed as intended in most browsers.
+
+| Testet browsers                 | Not yet tested |
+|---------------------------------|----------------|
+| The onion routing (Tor)         | Safari (Apple) |
+| Chromium based (Microsoft Edge) | Ecosia         |
+| Mozilla Firefox                 | Brave          |
+### Devices
+| Typ          | Ratio     | Pixel      | Optimized          |
+|--------------|-----------|------------|--------------------|
+| Desktop      | 16:9      | 1920x1080  | :heavy_check_mark: |
+| Tablet       | inbetween | inbetween  | :ok:               |
+| Mobile       | 9:16      | >1100x1080 | :heavy_check_mark: |
+
+---
+
 ## FAQ
 Visit our [Q&A](https://github.com/RealCocoArdo/BitcoinOverview/discussions/categories/q-a) for more informations.
