@@ -7,7 +7,7 @@
 I had some issues setting up the DNS etc. Help is appriciated.
 ### The website isn't finished yet
 The website has still many basic construction sites. Empty containers or notes that need more attention.
-And with the growth of content around Bitcoin it probably will never be "finished"
+And with the growth of content around Bitcoin it will never be "finished".
 ### FOSS
 This code has a [MIT License](LICENSE.txt). The backgroundpictures are from [Freepik](https://www.freepik.com/). They need to be credited.
 
