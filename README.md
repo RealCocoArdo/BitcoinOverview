@@ -37,8 +37,10 @@ You need to be logged in for this.
 ### Contact a Maintainer
 In case you struggle with Github or you just want to add something small you can contact Coco_Ardo via social media.
 ### Goals
-* Having a Website were unexpirienced and expirienced users are able to find **everything** they want to know about Bitcoin.
+* Having a Website were unexpirienced and expirienced users are able to find **everything** they want to know about Bitcoin. 
+* Even if they can't find the informations on BitcoinOverview.org, at least they then know where to find it somewhere else.
 * Providing the source information. No self created content.
+* Beeing some kind of archiv.
 ### Rules
 1. BitcoinOverview.org doesn't allow the promotion of Fiat or Shitcoin related content.
 * That includes trading.
