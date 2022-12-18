@@ -5,6 +5,8 @@
 ## Disclamer 
 ### Bitcoinoverview.org is currently not hosted
 I had some issues setting up the DNS etc. Help is appriciated.
+
+However you can visit [Live-Demo](https://bitcoin-overview.vercel.app/) to expirience a live demonstration.
 ### The website isn't finished yet
 The website has still many basic construction sites. Empty containers or notes that need more attention.
 And with the growth of content around Bitcoin it will never be "finished".
