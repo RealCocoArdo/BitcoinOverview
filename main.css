@@ -13,9 +13,6 @@ Dark grey      #828282 */
     h1{
         font-size: 210%;
     }
-    h7{
-        font-size: 60%;
-    }
 
     body{
         /* background: white; */
@@ -317,9 +314,14 @@ Dark grey      #828282 */
 /*################################################################################### Mobile-Version: ######################################################################*/
 
 @media (max-width:1100px) {
-
+    body{
+    font-size: 100%;
+    }
     h1{
         font-size: 190%;
+    }
+    .slimhello{
+        display: none;
     }
             nav div{
                 width: 0;
@@ -327,6 +329,9 @@ Dark grey      #828282 */
                 nav div img{
                     width: 0;
                 }
+            nav ul{
+                font-size: 110%;
+            }
             
             .Topbar{
                 margin: 2vh 0 2vh 10%;
