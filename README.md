@@ -67,7 +67,7 @@ The website should be displayed as intended in most browsers.
 | Typ          | Ratio     | Pixel      | Optimized          |
 |--------------|-----------|------------|--------------------|
 | Desktop      | 16:9      | 1920x1080  | :heavy_check_mark: |
-| Tablet       | inbetween | inbetween  | :ok:               |
+| Tablet       | inbetween | inbetween  | :x:                |
 | Mobile       | 9:16      | >1100x1080 | :heavy_check_mark: |
 
 ---
