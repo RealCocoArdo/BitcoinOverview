@@ -1,5 +1,7 @@
 # Bitcoin Overview
 
+![Screenshot of Index.html](screenshots/Index2.PNG)
+
 ---
 
 ## Disclamer 
@@ -22,14 +24,6 @@ If you want to you can [add](https://github.com/RealCocoArdo/BitcoinOverview#add
 2. Open the folder were you saved the code.
 3. Unzip the downloaded file to a directory of your choice. Ideally in the same folder were you saved the .zip file.
 4. Open the folder. Press right click on the "index.html" file and select "Open with" and choose your favourite browser.
-
----
-
-![Screenshot of Knowledge.html](screenshots/Knowledge.PNG)
-![Screenshot of Knowledge.html](screenshots/Knowledge2.PNG)
-![Mobile screenshot of Knowledge.html](screenshots/MobileKnowledge.PNG)
-
----
 
 ## Adding content to BitcoinOverview.org
 ### Open a pull-request or Issue
@@ -73,3 +67,14 @@ The website should be displayed as intended in most browsers.
 
 ## FAQ
 Visit our [Q&A](https://github.com/RealCocoArdo/BitcoinOverview/discussions/categories/q-a) for more informations.
+
+---
+
+## Screenshots
+
+![Screenshot of Knowledge.html](screenshots/Knowledge.PNG)
+![Screenshot of Knowledge.html](screenshots/Knowledge2.PNG)
+![Mobile screenshot of Knowledge.html](screenshots/MobileKnowledge2.PNG)
+![Mobile screenshot of Social.html](screenshots/MobileSocial.PNG)
+
+---
