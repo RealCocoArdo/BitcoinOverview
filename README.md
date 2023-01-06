@@ -1,6 +1,6 @@
 # Bitcoin Overview
 
-![Screenshot of Index.html](screenshots/Index2.PNG)
+![Screenshot of index.html](screenshots/index2.PNG)
 
 ---
 
