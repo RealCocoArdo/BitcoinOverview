@@ -1,0 +1,52 @@
+index{
+    sections: #0 #1 #2
+}
+pages{
+
+    Donate.html{
+        sections: #0 #1 #2
+    }
+
+    Imprint.html{
+        sections: #0 #1 #2
+        #popup
+        #sensetivdata
+    }
+
+    Knowledge.html{
+        sections: #0 #1 #2 #3 #4
+        #bitcoinfixesthis
+        #FUD
+        #wallets
+        #buy
+            #earn
+        #node
+        #mining
+        #nodehelp
+        #satoshi
+        #wikileaks
+    }
+
+    PrivacyPolicy.html{
+        sections: #0 #1 #2
+    }
+
+    Projects.html{
+        sections: #0 #1 #2 #3 #4
+    }
+
+    Shops.html{
+        sections: #0 #1 #2 #3 #4
+    }
+
+    Social.html{
+        sections: #0 #1 #2 #3 #4
+        #meetups
+    }
+
+    Tools.html{
+        #miningcalculator
+        #phone
+    }
+}
+
