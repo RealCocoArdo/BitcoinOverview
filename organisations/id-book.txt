@@ -19,7 +19,6 @@ pages{
         #FUD
         #wallets
         #buy
-            #earn
         #node
         #mining
         #nodehelp
