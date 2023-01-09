@@ -23,3 +23,17 @@ function verify(){
     }
     document.getElementById("demo").innerHTML = txt;
 }
+
+var $$ = document.querySelectorAll.bind( document );
+
+const init = async () => {
+            
+    const { bitcoin: { blocks } } = mempoolJS({
+    hostname: 'mempool.space'
+    });
+
+    const blocksTipHeight = await blocks.getBlocksTipHeight();
+    var usFormat = blocksTipHeight.toLocaleString('en-US');
+
+    $$( `.currentBlockHeight` )[ 0 ].innerHTML = 'Block:' + usFormat;
+};
