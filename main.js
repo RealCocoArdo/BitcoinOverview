@@ -36,5 +36,5 @@ const init = async () => {
     var usFormat = blocksTipHeight.toLocaleString('en-US');
 
     $$( `.currentBlockHeight` )[ 0 ].innerHTML = 'Block:' + usFormat;
-    setTimeout( init(), 10000 );
+    setTimeout( init, 10000 );
 };
