@@ -194,11 +194,8 @@
             <br><h3 id="node">Setup a Node <button onclick="hide('k13')">v</button></h3>
             <div id="k13">
                 Nodes vs. Miner (by Braiins) <br><a href="https://braiins.com/blog/bitcoin-nodes-vs-miners-demystified">https://braiins.com/blog/bitcoin-nodes-vs-miners-demystified</a><br><br>
-                Fullnode vs. Lightning Node <br><a href="#">...</a><br><br>
-                Helpful basic LN node commands <br><a href="#nodehelp">Press here</a><br><br>
-                Free LN Watchtower provider <br><a href="https://lightningnetwork.plus/watchtower">https://lightningnetwork.plus/watchtower</a><br><br>
-                Check your connection to the Network <br><a href="https://bitnodes.io/">https://bitnodes.io/</a><br><br>
-
+                Fullnode vs. Lightning Node <br><a href="https://bitcoin.design/guide/how-it-works/nodes/">https://bitcoin.design/guide/how-it-works/nodes/</a><br><br>
+                
                 <h4>Node Software <button onclick="hide('k14')">v</button></h4>
                 <div id="k14">
                     Lightning Network Daemon (LND) <br><a href="https://github.com/lightningnetwork/lnd#readme">https://github.com/lightningnetwork/..</a><br><br>
@@ -229,7 +226,11 @@
                 <div id="k15">
                     Prunednode today <br><a href="https://prunednode.today/">https://prunednode.today/</a><br><br>
                     <!-- issues of pruning <br> <br> -->
-                </div>
+                </div><br>
+
+                Free LN Watchtower provider <br><a href="https://lightningnetwork.plus/watchtower">https://lightningnetwork.plus/watchtower</a><br><br>
+                Check your connection to the Network <br><a href="https://bitnodes.io/">https://bitnodes.io/</a><br><br>
+                Helpful basic LN node commands <br><a href="#nodehelp">Press here</a><br><br>
             </div>
 
             <br><h3 id="mining">Mining <button onclick="hide('k16')">v</button></h3>
@@ -237,7 +238,9 @@
                 Set up a ASIC <br><a href="https://www.youtube.com/watch?v=RNCXULhef74">https://www.youtube.com/watch?v=RNCXULhef74</a><br><br>
                 What means share <br><a href="https://2miners.com/blog/what-is-share-and-the-share-difficulty-when-you-are-mining-at-the-pool/">https://2miners.com/blog/what-is-share-and-the-share-difficulty-when-you-are-mining-at-the-pool/</a><br><br>
                 <!-- Solomining (aka. Lottery mining) <a href="#">...</a><br><br> -->
-                Calculation <br><a href="Tools.html#miningcalculator">Tools</a>
+                Calculation <br><a href="Tools.html#miningcalculator">Tools</a><br><br>
+                Buy a miner <br><a href="Shops.html#internationalHardware">International Hardware provider >> Miner and Heater </a><br><br>
+                <a href="https://t.me/kaboomracks">Telegram marketplace for miner</a><br><br>
                 
                 <h4>Pools & Solomining <button onclick="hide('k17')">v</button></h4>
                 <div id="k17">
@@ -259,21 +262,6 @@
         <section class="ThirdSection" id="3">
             <h1><b><u>Additional</u></b></h1>
 
-            <br><h3 id="nodehelp">CMD commands <button onclick="hide('k19')">v</button></h3>
-            <div id="k19">
-                Plebnet Wiki <br><a href="https://plebnet.wiki/wiki/Main_Page">https://plebnet.wiki/wiki/Main_Page</a><br><br>
-                <br><br>The following Citadel commands can also be used for Umbrel users. Just replace citadel with umbrel.<br><br>
-                <u>Connect to your Node:</u><br><i>ssh YourIP@Poort<br> (for example: ssh 234.0.0.0@5500  or ssh citadel@citadel)</i><br><br>
-                <u>List sub folders:</u><br><i>dir </i><br><br>
-                <u>Move to a folder/file:</u><br><i>cd ReplaceThisWithTheFolderName</i><br><br>
-                <u>Move a folder back:</u><br><i>cd ..</i><br><br>
-                <u>Edit a File</u><br><i>nano ReplaceThisWithTheFileName<br>(for example: nano lnd/lnd.conf)</i><br><br>
-                <u>Add a Watchtower (LND, Dockerbased env. like Citadel/ Umbrel)</u><br><i>docker exec -it lnd lncli wtclient add</i><br><br>
-                <u>List added Watchtowers (LND, Dockerbased env. like Citadel/ Umbrel)</u><br><i>docker exec -it lnd lncli wtclient towers</i><br><br>
-                <u>Redo update after failiure (Citadel)</u><br><i>sudo rm -rf ~/citadel/statuses/update-in-progress && sudo ~/citadel/scripts/update/update --repo runcitadel/core#stable</i><br><br>
-                <u>Stuck loading screen after succesfull update(Citadel)</u><br><i>sudo rm ~/citadel/nginx/nginx.conf && sudo docker kill nginx && sudo ~/citadel/scripts/start</i><br><br>
-            </div>
-
             <br><h3>Interesting lists <button onclick="hide('k18')">v</button></h3>
             <div id="k18">
                 How many times has Bitcoin been declared dead? <br><a href="https://www.bitcoinisdead.org/">https://www.bitcoinisdead.org/</a><br><br>
@@ -293,6 +281,21 @@
                 Bitcoin Bounties <br><a href="https://bitcoinbounties.org/">https://bitcoinbounties.org/</a><br><br>
                 Stacker jobs <br><a href="https://stacker.news/~jobs">https://stacker.news/~jobs</a><br><br>
                 SummerOfBitcoin <br><a href="https://www.summerofbitcoin.org/jobs">https://www.summerofbitcoin.org/jobs</a><br><br>
+            </div>
+
+            <br><h3 id="nodehelp">CMD commands <button onclick="hide('k19')">v</button></h3>
+            <div id="k19">
+                Plebnet Wiki <br><a href="https://plebnet.wiki/wiki/Main_Page">https://plebnet.wiki/wiki/Main_Page</a><br><br>
+                <br><br>The following Citadel commands can also be used for Umbrel users. Just replace citadel with umbrel.<br><br>
+                <u>Connect to your Node:</u><br><i>ssh YourIP@Poort<br> (for example: ssh 234.0.0.0@5500  or ssh citadel@citadel)</i><br><br>
+                <u>List sub folders:</u><br><i>dir </i><br><br>
+                <u>Move to a folder/file:</u><br><i>cd ReplaceThisWithTheFolderName</i><br><br>
+                <u>Move a folder back:</u><br><i>cd ..</i><br><br>
+                <u>Edit a File</u><br><i>nano ReplaceThisWithTheFileName<br>(for example: nano lnd/lnd.conf)</i><br><br>
+                <u>Add a Watchtower (LND, Dockerbased env. like Citadel/ Umbrel)</u><br><i>docker exec -it lnd lncli wtclient add</i><br><br>
+                <u>List added Watchtowers (LND, Dockerbased env. like Citadel/ Umbrel)</u><br><i>docker exec -it lnd lncli wtclient towers</i><br><br>
+                <u>Redo update after failiure (Citadel)</u><br><i>sudo rm -rf ~/citadel/statuses/update-in-progress && sudo ~/citadel/scripts/update/update --repo runcitadel/core#stable</i><br><br>
+                <u>Stuck loading screen after succesfull update(Citadel)</u><br><i>sudo rm ~/citadel/nginx/nginx.conf && sudo docker kill nginx && sudo ~/citadel/scripts/start</i><br><br>
             </div>
 
             <br><h3>Content creators <button onclick="hide('k35')">v</button></h3>
@@ -374,6 +377,7 @@
                 Satoshi created bitcoin.org (2008) <br><br>
                 Craig Wright reported bitcoin.org by the police (?) <br><br>
                 Bitcoin.org got hacked (2021) <br><br>
+                sources comming soon <br><br>
             </div>
 
             <br><br><h1><b><u>Timeline</u></b></h1>
