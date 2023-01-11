@@ -36,6 +36,7 @@ pages{
 
     Shops.html{
         sections: #0 #1 #2 #3 #4
+        internationalHardware
     }
 
     Social.html{
