@@ -214,7 +214,7 @@ Dark grey      #828282 */
         #i1, #i2, #i3{
             display: none;
         }
-        #k1, #k2, #k3, #k4, #k5, #k6, #k7, #k8, #k9, #k10, #k11, #k12, #k13, #k14, #k15, #k16, #k17, #k18, #k19, #k20, #k21, #k22, #k23, #k24, #k25, #k26, #k27, #k28, #k29, #k30, #k31, #k32, #k33, #k34, #k35, #k36, #k37, #k38{
+        #k1, #k2, #k3, #k4, #k5, #k6, #k7, #k8, #k9, #k10, #k11, #k12, #k13, #k14, #k15, #k16, #k17, #k18, #k19, #k20, #k21, #k22, #k23, #k24, #k25, #k26, #k27, #k28, #k29, #k30, #k31, #k32, #k33, #k34, #k35, #k36, #k37{
             display: none;
         }
         #t1, #t2, #t3, #t4, #t5, #t6, #t7, #t8, #t9, #t10, #t11, #t12, #t13{
@@ -256,7 +256,20 @@ Dark grey      #828282 */
             display: none;
         }
         
-
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            }
+    
+            td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            }
+    
+            tr:nth-child(even) {
+            background-color: #dddddd;
+            }
 
     .footeroverview{
         background: #a4a4a4;
@@ -313,6 +326,15 @@ Dark grey      #828282 */
     #top{
         color: rgb(255, 166, 0);
     }
+    .crosslink{
+        color: rgba(255, 0, 0, 0.692);
+    }
+        .crosslink a{
+            color:rgb(70, 158, 240);
+        }
+            .crosslink a:hover{
+                color: rgba(255, 0, 0, 0.692);
+            }
 
 /*################################################################################### Mobile-Version: ######################################################################*/
 
