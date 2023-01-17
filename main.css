@@ -260,13 +260,11 @@ Dark grey      #828282 */
             border-collapse: collapse;
             width: 100%;
             }
-    
             td, th {
             border: 1px solid #dddddd;
             text-align: left;
             padding: 8px;
             }
-    
             tr:nth-child(even) {
             background-color: #dddddd;
             }
@@ -411,5 +409,11 @@ Dark grey      #828282 */
         }
         .space{
             margin-bottom: 100%;
+        }
+        th{
+            font-size: 35px;
+        }
+        td{
+            font-size: 25px;
         }
 }
