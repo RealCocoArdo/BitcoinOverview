@@ -208,7 +208,7 @@ Dark grey      #828282 */
             background-color: rgb(70, 206, 240);
         }
 
-        #d1, #d2, #d3, #d4, #d5, #d6, #d7, #d8, #d9, #d10, #d11{
+        #d1, #d2, #d3, #d4, #d5, #d6, #d7, #d8, #d9{
             display: none;
         }
         #i1, #i2, #i3{
@@ -345,6 +345,9 @@ Dark grey      #828282 */
     }
     h2{
         font-size: 30px;
+    }
+    .mobilesize2{
+        font-size: 15px;
     }
     h3{
         font-size: 35px;
