@@ -44,7 +44,7 @@ pages{
         #meetups
     }
 
-    Tools.html{
+    Usage.html{
         sections: #0 #1 #2 #3 #4
         #miningcalculator
         #phone
