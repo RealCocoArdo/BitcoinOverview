@@ -27,7 +27,10 @@ If you want to you can [add](https://github.com/RealCocoArdo/BitcoinOverview#add
 
 ## Adding content to BitcoinOverview.org
 ### Open a pull-request or Issue
-Make a [pull-request](https://github.com/RealCocoArdo/BitcoinOverview/pulls) or submit an [issue](https://github.com/RealCocoArdo/BitcoinOverview/issues/new/choose) where you explain what changes you would make. 
+Make a [pull-request](https://github.com/RealCocoArdo/BitcoinOverview/pulls) or submit an [issue](https://github.com/RealCocoArdo/BitcoinOverview/issues/new/choose) where you explain what changes you would make.
+
+I got a big list (organisations/implementations.html) of content that can be sorted to the diffrent pages.
+GUI changes are welcome as well.
 
 You need to be logged in for this.
 ### Contact a Maintainer
