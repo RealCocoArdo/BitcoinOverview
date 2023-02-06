@@ -170,7 +170,7 @@ Dark grey      #828282 */
             border-bottom: 2px solid #828282;
         }
             .FirstSection a, .SecondSection a, .ThirdSection a, .FourthSection a{
-                color: #a4a4a4;
+                color: rgb(112, 112, 112);
                 text-decoration: none;
             }
             .FirstSection h3, .SecondSection h3, .ThirdSection h3, .FourthSection h3{
@@ -444,6 +444,9 @@ Dark grey      #828282 */
         .kStart li, .tStart li, .sStart li, .soStart li, .pStart li{
             background-color: #828282;
         }
+            .FirstSection a, .SecondSection a, .ThirdSection a, .FourthSection a{
+                color: #a4a4a4;
+            }
 
         .popup{
             background-color: #828282;
