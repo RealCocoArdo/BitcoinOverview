@@ -19,23 +19,21 @@ Dark grey      #828282 */
 
     body{
         /* background: white; */
-        background-image: linear-gradient(45deg, transparent 0%, transparent 55%,rgba(64, 64, 64,0.04) 55%, rgba(64, 64, 64,0.04) 76%,transparent 76%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 14%,rgba(64, 64, 64,0.04) 14%, rgba(64, 64, 64,0.04) 41%,transparent 41%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 2%,rgba(64, 64, 64,0.04) 2%, rgba(64, 64, 64,0.04) 18%,transparent 18%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 61%,rgba(64, 64, 64,0.04) 61%, rgba(64, 64, 64,0.04) 71%,transparent 71%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
-        color: Black;
+        background-image: linear-gradient(45deg, transparent 0%, transparent 55%,#222222 55%,#151515 76%,transparent 76%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 14%,#222222 14%, #151515 41%,transparent 41%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 2%,#222222 2%, #151515 18%,transparent 18%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 61%,#222222 61%, #151515 71%,transparent 71%, transparent 100%),linear-gradient(90deg, #222222,#151515);
+        color: #FFFFFF;
         margin: 0;
         padding: 0;
         font-family: Arial, Helvetica, sans-serif;
     }
         
-
             nav{
-                background: white;
+                background: #222222;
                 display: flex;
                 justify-content: center;
                 border-bottom: 3px solid #828282;
                 padding: 0 20% 0 -18%;
             }
                 nav div{
-                    background-color: white;          /*RED*/
                     margin: 2.2vh 0 1vh -10%; 
                     padding: 0 0 0 0;
                     width: 80px;
@@ -49,7 +47,6 @@ Dark grey      #828282 */
                     }
 
                 .Topbar{
-                    background: white;              /*RED*/
                     margin: 2vh 0 2vh 10%;
                     padding: 0;
                     list-style-type: none;
@@ -62,12 +59,11 @@ Dark grey      #828282 */
                     color: orange;
                 }
                     .Topbar li{
-                        background: white;
                         color: rgb(70, 206, 240);
                         padding: 9% 3% 6% 3%;
                     }
                     .Topbar li a{
-                        color: black;
+                        color: #FFFFFF;
                         text-decoration: none;
                     }
                     .Topbar li a:hover{
@@ -94,7 +90,7 @@ Dark grey      #828282 */
             .Hello {
                 border: 5px solid #a4a4a4;
                 border-radius: 25px;
-                background: white;
+                background: #222222;
                 padding: 2% 5% 2% 5%;
                 margin: 2% 15% 1% 15%;
             }
@@ -122,30 +118,17 @@ Dark grey      #828282 */
                     margin: 0%;
                 }
 
-
     
-    .kStart{
-        background: url(pictures/Knowledge3.png);
-    }
-    .tStart{
-        background: url(pictures/Tools.png);
-    }
-    .sStart{
-        background: url(pictures/shopping.png);
-    }
-    .soStart{
-        background: url(pictures/Social.png);
-    }
-    .pStart{
-        background: url(#);
+    .kStart, .tStart, .sStart, .soStart, .pStart{
+        background: url(pictures/Home.png);
     }
     .iStart, .ppStart{
         margin: 5% 14% 2.5% 14%;
         padding: 1%;
-        background-color: #828282;
+        background-color: #222222;
         border: 5px solid #a4a4a4;
         border-radius: 25px;
-        color: white;
+        color: #FFFFFF;
     }
     .kStart, .tStart, .sStart, .soStart, .pStart{
         background-repeat: no-repeat;
@@ -164,7 +147,7 @@ Dark grey      #828282 */
             .kStart li, .tStart li, .sStart li, .soStart li, .pStart li{
                 padding: 1% 0 1% 0;
                 margin: 0 0 5% 0;
-                background-color: #828282;
+                background-color: #222222;
                 border: 5px solid #a4a4a4;
                 border-radius: 25px;
                 list-style: none;
@@ -172,7 +155,7 @@ Dark grey      #828282 */
                 text-align: center;
             }
                 .kStart li a, .tStart li a, .sStart li a, .soStart li a, .pStart li a{
-                    color: white;
+                    color: #FFFFFF;
                     text-decoration: none;
                 }
                    .kStart li a:hover, .tStart li a:hover, .sStart li a:hover, .soStart li a:hover, .pStart li a:hover{
@@ -233,7 +216,7 @@ Dark grey      #828282 */
         .popup{
             margin: 20px 14% 77px 14%;
             padding: 50px 20px 30px 20px;
-            background-color: #828282;
+            background-color: #222222;
             border: 5px solid #a4a4a4;
             border-radius: 25px;
             display: flex;
@@ -244,8 +227,12 @@ Dark grey      #828282 */
             }
 
             #hv{
+                background-color: #222222;
                 padding: 10px;
-            }    
+            }
+                #hv:hover{
+                    background-color: #151515;
+                }
             #demo{
                 padding: 10px 0 10px 20px;
                 display: block; /*inline before*/
@@ -266,12 +253,11 @@ Dark grey      #828282 */
             padding: 8px;
             }
             tr:nth-child(even) {
-            background-color: #dddddd;
+            background-color: #312f2f;
             }
 
     .footeroverview{
-        background: #a4a4a4;
-        color: white;
+        background: #222222;
         padding: 2.2vh 0 2.2vh 0;
         }
         .listoverview{
@@ -296,8 +282,8 @@ Dark grey      #828282 */
 
 
     .footerimpressum{
-        background: #828282;
-        color: white;
+        background: #151515;
+        color: #FFFFFF;
     }
         .listimpressum{
             list-style-type: none;
@@ -419,4 +405,64 @@ Dark grey      #828282 */
         td{
             font-size: 25px;
         }
+}
+
+
+/*################################################################################### Light-Mode: ######################################################################*/
+
+@media (prefers-color-scheme: light) {
+    body{
+        background-image: linear-gradient(45deg, transparent 0%, transparent 55%,rgba(64, 64, 64,0.04) 55%, rgba(64, 64, 64,0.04) 76%,transparent 76%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 14%,rgba(64, 64, 64,0.04) 14%, rgba(64, 64, 64,0.04) 41%,transparent 41%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 2%,rgba(64, 64, 64,0.04) 2%, rgba(64, 64, 64,0.04) 18%,transparent 18%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 61%,rgba(64, 64, 64,0.04) 61%, rgba(64, 64, 64,0.04) 71%,transparent 71%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+        color: Black;
+    }
+        nav{
+            background: white;
+        }
+                .Topbar li a{
+                    color: black;
+                }
+        .Hello {
+            background: white;
+        }
+
+        .kStart{
+            background: url(pictures/Knowledge3.png);
+        }
+        .tStart{
+            background: url(pictures/Tools.png);
+        }
+        .sStart{
+            background: url(pictures/shopping.png);
+        }
+        .soStart{
+            background: url(pictures/Social.png);
+        }
+        
+        .iStart, .ppStart{
+            background-color: #828282;
+        }
+        .kStart li, .tStart li, .sStart li, .soStart li, .pStart li{
+            background-color: #828282;
+        }
+
+        .popup{
+            background-color: #828282;
+        }
+            #hv{
+                background-color: #FFFFFF;
+            }
+                #hv:hover{
+                    background-color: rgb(70, 206, 240);
+                }
+            
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+
+    .footeroverview{
+        background: #a4a4a4;
+    }
+    .footerimpressum{
+        background: #828282;
+    }
 }
