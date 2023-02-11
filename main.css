@@ -183,6 +183,11 @@ Dark grey      #828282 */
                 width: 100%;
             }
 
+                    .ThirdSection h5{
+                        font-size: 20px;
+                        margin: 0;
+                    }
+
         button{
             border: 1px solid darkgrey;
         }
@@ -386,7 +391,11 @@ Dark grey      #828282 */
                         list-style: none;
                         text-decoration: none;
                     }
-
+            
+                .ThirdSection h5{
+                    font-size: 12px;
+                    margin: 0;
+                }
         .kStart ul, .tStart ul, .sStart ul, .soStart ul{
             margin: 6% 26% 0% 26%;
         }
