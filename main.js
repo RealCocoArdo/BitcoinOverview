@@ -10,7 +10,7 @@ function hide(variable1){
 
 function verify(){
     var txt;
-    if(confirm("Is Craig Wright a fraud?")){
+    if(confirm("Is Faketoshi a fraud?")){
         txt = "Success !";
         demo.style.background = "green";
         popup.style.display = "none";
