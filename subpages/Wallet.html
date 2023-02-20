@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bitcoin Overview</title>
+        <link rel="shortcut icon" href="../pictures/Favicon.png" type="image/png">
+        <link rel="stylesheet" href="../main.css">
+        <script src="../main.js"></script>
+        <script src="https://mempool.space/mempool.js"></script>
+        <script>init();</script>
+    </head>
+    <body>
+        <header>
+            <nav id="nav">
+                <div>
+                    <a href="../index.html"><img src="../pictures/BTCLOGO1.PNG" alt="Bitcoin Logo"></a>
+                </div>
+                <ul class="Topbar">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/Knowledge.html">Knowledge</a></li>
+                    <li><a href="../pages/Usage.html">Usage</a></li>
+                    <li><a href="../pages/Shops.html">Shops</a></li>
+                    <li><a href="../pages/Social.html">Social</a></li>
+                    <li><a href="https://mempool.space" class="currentBlockHeight" id="orange"></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="FirstSection" id="1">
+            <a id="top" href="../pages/Knowledge.html#2"><== go back</a>
+            <h2><u>Software and Hardware for Bitcoin Wallets</u></h2>
+
+                <h4>Air gapped signing devices <button onclick="hide('w1')">v</button></h4>
+                <div id="w1">
+                    Seedsigner (DIY) <br><a href="https://seedsigner.com/">https://seedsigner.com/</a><br><br>
+                    Krux (DIY) <br><a href="https://selfcustody.github.io/krux/">https://selfcustody.github.io/krux/</a><br><br>
+                    Specter-DIY <br><a href="https://github.com/cryptoadvance/specter-diy">https://github.com/cryptoadvance/specter-diy</a><br><br>
+                    Foundation passport <br><a href="https://foundationdevices.com/">https://foundationdevices.com/</a><br><br>
+                </div>
+
+                <h4>HardwareWallets <button onclick="hide('w2')">v</button></h4>
+                <div id="w2">
+                    Coldcard Mk.4 <br><a href="https://coldcard.com/">https://coldcard.com/</a><br><br>
+                    Bitbox 2.0 Bitcoin only editon <br><a href="https://shiftcrypto.ch/">https://shiftcrypto.ch/</a><br><br>
+                    LNbits Hardware Wallet  <br><a href="https://shop.lnbits.com/">https://shop.lnbits.com/</a><br><br>
+                    <a href="https://github.com/lnbits/hardware-wallet">DIY https://github.com/lnbits/hardware-wallet</a><br><br>
+                    Ledger Nano S <br><a href="https://www.ledger.com/">https://www.ledger.com/</a><br><br>
+                    Babybowser (DIY) <br><a href="https://github.com/arcbtc/hardware-wallet-babybowser">https://github.com/arcbtc/hardware-wallet-babybowser</a><br><br>
+                    <!-- DIY Koopa (Not beginner friendly) <br><a href="https://github.com/arcbtc/koopa">https://github.com/arcbtc/koopa</a><br><br> -->
+                    Trezor Model T <br><a href="https://trezor.io/">https://trezor.io/</a><br><br>
+                    Jade by Blockstream <br><a href="https://store.blockstream.com/">https://store.blockstream.com/</a><br><br>
+                    Keystone <br><a href="https://shop.keyst.one/">https://shop.keyst.one/</a><br><br>
+                </div>
+    
+                <h4>Mobile SoftwareWallets <button onclick="hide('w3')">v</button></h4>
+                <div id="w3">
+                    Samourai Wallet <br><a href="https://play.google.com/store/apps/details?id=com.samourai.wallet">https://play.google.com/store/apps/..</a><br><br>
+                    <a href="https://samouraiwallet.com/download/fdroid">https://samouraiwallet.com/down..</a><br><br>
+                    Blue Wallet <br><a href="https://bluewallet.io/">https://bluewallet.io/</a><br><br>
+                    Sentinel (Watch only) <br><a href="https://samouraiwallet.com/sentinel">https://samouraiwallet.com/sentinel</a><br><br>
+                    Electrum <br><a href="https://play.google.com/store/apps/details?id=org.electrum.electrum">https://play.google.com/store/apps/..</a><br><br>
+                    Breez <br><a href="https://breez.technology/">https://breez.technology/</a><br><br>
+                    Wallet of Satoshi <br><a href="https://www.walletofsatoshi.com/">https://www.walletofsatoshi.com/</a><br><br>
+                    Blixt <br><a href="https://play.google.com/store/apps/details?id=com.blixtwallet&gl=US">https://play.google.com/store/apps/..</a><br><br>
+                    Zeus <br><a href="https://zeusln.app/">https://zeusln.app/</a><br><br>
+                    Muun <br><a href="https://muun.com/">https://muun.com/</a><br><br>
+                    Phoenix by ACINQ <br><a href="https://phoenix.acinq.co/">https://phoenix.acinq.co/</a><br><br>
+                    Bitcoin Beach Wallet <br><a href="https://play.google.com/store/apps/details?id=com.galoyapp&hl=de&gl=US">https://play.google.com/store/apps/..</a><br><br>
+                    <a href="https://apps.apple.com/at/app/bitcoin-beach-wallet/id1531383905">https://apps.apple.com/at/app/bitcoin-beach-wallet/id1531383905</a><br><br>
+                    Simple Bitcoin Wallet (SBW) <br><a href="https://sbw.app/">https://sbw.app/</a><br><br>
+                    Open Bitcoin Wallet (OBW) <br><a href="https://github.com/nbd-wtf/obw">https://github.com/nbd-wtf/obw</a><br><br>
+                    Wasabiwallet <br><a href="https://wasabiwallet.io/">https://wasabiwallet.io/</a><br><br>
+                    Sparkwallet <br><a href="https://sparkwallet.io/">https://sparkwallet.io/</a><br><br>
+                </div>
+
+                <h4>Desktop SoftwareWallets <button onclick="hide('w4')">v</button></h4>
+                <div id="w4">
+                    Bitcoin Core <br><a href="https://bitcoin.org/en/download">https://bitcoin.org/en/download</a><br><br>
+                    <a href="https://github.com/bitcoin/bitcoin/releases">https://github.com/bitcoin/bitcoin..</a><br><br>
+                    Electrum <br><a href="https://electrum.org/#home">https://electrum.org/#home</a><br><br>
+                    Samourai Wallet <br><a href="https://samouraiwallet.com/">https://samouraiwallet.com/</a><br><br>
+                    Sparrow Wallet <br><a href="https://www.sparrowwallet.com/">https://www.sparrowwallet.com/</a><br><br>
+                    Specter <br><a href="https://specter.solutions/">https://specter.solutions/</a><br><br>
+                    Blockstream Green <br><a href="https://blockstream.com/green/">https://blockstream.com/green/</a><br><br>
+                    Blue Wallet <br><a href="https://bluewallet.io/">https://bluewallet.io/</a><br><br>
+                    Wasabiwallet <br><a href="https://wasabiwallet.io/">https://wasabiwallet.io/</a><br><br>
+                </div>
+
+                <h4>Browser SoftwareWallets <button onclick="hide('w5')">v</button></h4>
+                <div id="w5">
+                    LNbits <br><a href="https://lnbits.com/">https://lnbits.com/</a><br><br>
+                    Alby <br><a href="https://getalby.com/">https://getalby.com/</a><br><br>
+                </div>
+
+            <br><h2><u>Compare</u></h2>
+            Wallet security <br><a href="https://walletscrutiny.com/">https://walletscrutiny.com/</a><br><br>
+            Superb wallet comparision by Darthcoin <br><a href="https://darthcoin.substack.com/p/lightning-wallets-comparison?s=r">https://darthcoin.substack.com/p..</a><br><br>
+            Steelplate comparision <br><a href="https://jlopp.github.io/metal-bitcoin-storage-reviews/">https://jlopp.github.io/metal-bitcoin-storage-reviews/</a><br><br>
+
+            <br><h2><u>Guides</u></h2>
+            How to backup your Bitcoin <br><a href="https://bitcoin-intro.com/en/backup">https://bitcoin-intro.com/en/backup</a><br><br>
+            Recover a wallet <br><a href="https://walletsrecovery.org/">https://walletsrecovery.org/</a><br><br>
+            Passphrases explained <br><a href="https://blog.coinkite.com/everything-you-need-to-know-about-passphrases/">https://blog.coinkite.com/everything-you-need-to-know-about-passphrases/</a><br><br>
+            Sha256 by hand <br><a href="https://armantheparman.com/sha256/">https://armantheparman.com/sha256/</a><br><br>
+
+            <br><h2><u>Resources</u></h2>
+            BIP39 wordlist (0-indexed) <br><a href="https://coldbit.com/wp-content/uploads/2019/05/bip-39-wordlist.pdf">https://coldbit.com/wp-content/uploads/2019</a><br><br>
+            Hexadecimal table <br><a href="https://learn.clf.uk/wp-content/uploads/2020/06/hex-table-1.png">https://learn.clf.uk/wp-content/uploads/2020/06/hex-table-1.png</a><br><br>
+            <a href="https://learnmeabitcoin.com/technical/hexadecimal">https://learnmeabitcoin.com/technical/hexadecimal</a><br><br>
+            Seed recover tool <br><a href="https://btcrecover.readthedocs.io/en/latest/">https://btcrecover.readthedocs.io/en/latest/</a><br><br>
+
+            <div class="crosslink"><br>Related topics: <br>
+                <a href="../pages/Shops.html#internationalHardware">Hardware shops </a>|
+                <a href="Media.html#4">Content creators </a>|
+                <a href="../index.html#2">Other Bitcoin websites </a><br></div>
+            </div>
+        </section>
+
+        <footer class="footeroverview">                                 <!--Social Media-->
+            <ul class="listoverview">
+                <li><a href="https://www.twitter.com/Coco_Ardo"><img src="../pictures/Twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://www.reddit.com/user/Coco_Ardo/"><img src="../pictures/Reddit.png" alt="Reddit"></a></li>
+                <li><a href="https://discord.gg/DMP53qDM7c"><img src="../pictures/Discord.png" alt="Discord"></a></li>
+                <li><a href="https://github.com/RealCocoArdo"><img src="../pictures/Github.png" alt="Github"></a></li>
+            </ul>
+        </footer>
+
+        <footer class="footerimpressum">                                <!--Imprint Privacy policy @2022-->
+            <ul class="listimpressum">
+                <li><h5><a href="../pages/Imprint.html">Imprint</a></h5></li>
+                <li><h5><a href="../pages/PrivacyPolicy.html">Privacy policy</a></h5></li>
+                <li><h5><a href="#nav">Get me to the top</a></h5></li>
+                <li><h5><a href="https://github.com/RealCocoArdo/BitcoinOverview/blob/main/LICENSE.md">@<script>document.write(/\d{4}/.exec(Date())[0])</script> Bitcoin Overview </a></h5></li>
+            </ul>
+        </footer>
+    </body>
+</html>
+
