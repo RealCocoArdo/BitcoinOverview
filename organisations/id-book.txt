@@ -15,8 +15,10 @@ pages{
 
     Knowledge.html{
         sections: #0 #1 #2 #3 #4
-        #bitcoinfixesthis
+        #features-explained
+        #bitcoin-fixes-this
         #FUD
+        #bitcoin-not-crypto
         #wallets
         #buy
         #node
