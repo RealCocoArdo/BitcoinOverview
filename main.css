@@ -474,6 +474,15 @@ Dark grey      #828282 */
                 background-color: #dddddd;
             }
 
+            .crosslink{
+                color: rgba(255, 0, 0, 0.692);
+            }
+                .crosslink a{
+                    color:rgb(70, 158, 240);
+                }
+                    .crosslink a:hover{
+                        color: rgba(255, 0, 0, 0.692);
+                    }
     .footeroverview{
         background: #a4a4a4;
     }
