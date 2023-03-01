@@ -53,6 +53,8 @@ The design gets adjusted to your browser style mode
 ## Adding content to BitcoinOverview.org
 [Help us](https://github.com/RealCocoArdo/BitcoinOverview/blob/main/organisations/HELP.md)
 
+---
+
 ## FAQ
 Visit our [Q&A](https://github.com/RealCocoArdo/BitcoinOverview/discussions/categories/q-a) for more informations.
 
@@ -64,5 +66,3 @@ Visit our [Q&A](https://github.com/RealCocoArdo/BitcoinOverview/discussions/cate
 ![Screenshot of Knowledge.html](screenshots/Knowledge2.PNG)
 ![Mobile screenshot of Knowledge.html](screenshots/MobileKnowledge2.PNG)
 ![Mobile screenshot of Social.html](screenshots/MobileSocial.PNG)
-
----
