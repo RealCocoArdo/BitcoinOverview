@@ -3,7 +3,6 @@ index{
     #learn
 }
 pages{
-
     Donate.html{
         sections: #0 #1 #2
     }
@@ -40,6 +39,7 @@ pages{
 
     Shops.html{
         sections: #0 #1 #2 #3 #4
+        books
         internationalHardware
     }
 
@@ -55,4 +55,20 @@ pages{
         #sidechains
     }
 }
+subpages{
+    Donate.html{
+        sections: #0 #1 #2 #3 #4
+    }
 
+    Media.html{
+        sections: #0 #1 #2 #3 #4
+    }
+
+    Node.html{
+        sections: #1
+    }
+
+    Wallet.html{
+        sections: #1
+    }
+}
