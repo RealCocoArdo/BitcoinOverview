@@ -282,7 +282,8 @@ Dark grey      #828282 */
                 padding-left: 2.5%;
             }
                 .listoverview li img{
-                    width: 45px;    
+                    width: 45px;
+                    height: 45px;
                 }
                 .listoverview li a:hover{
                     opacity: 0.5;
@@ -417,6 +418,11 @@ Dark grey      #828282 */
         td{
             font-size: 25px;
         }
+
+                .listoverview li img{
+                    width: 70px;
+                    height: 70px;
+                }
 }
 
 
