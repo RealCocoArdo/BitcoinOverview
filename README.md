@@ -1,12 +1,11 @@
 # Bitcoin Overview
 
+<p align="left"><a href="https://opensource.org/licenses/MIT" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></img></a></p>
+
 ![Screenshot of index.html](screenshots/index2.PNG)
 
----
-
 ## Disclamer 
-### Bitcoinoverview.org is currently not hosted
-I had some issues setting up the DNS etc. Help is appriciated.
+Bitcoinoverview.org is currently not hosted. I had some issues setting up the DNS etc. Help is appriciated.
 
 However you can visit the [Live-Demo](https://bitcoin-overview.vercel.app/).
 
@@ -25,7 +24,10 @@ If you want to you can [add](https://github.com/RealCocoArdo/BitcoinOverview#add
 
 ---
 
-## Compatibility
+## Design compatibility
+<details>
+<summary>see more</summary>
+
 ### Browsers
 The website should be displayed as intended in most browsers.
 
@@ -48,21 +50,22 @@ The design gets adjusted to your browser style mode
 | Light          | :heavy_check_mark: |
 | Dark (Default) | :heavy_check_mark: |
 
+</details>
+
 ---
 
 ## Adding content to BitcoinOverview.org
-[Help us](https://github.com/RealCocoArdo/BitcoinOverview/blob/main/organisations/HELP.md)
-
----
-
-## FAQ
-Visit our [Q&A](https://github.com/RealCocoArdo/BitcoinOverview/discussions/categories/q-a) for more informations.
+[Help us](https://github.com/RealCocoArdo/BitcoinOverview/blob/main/organisations/HELP.md) or visit our [Q&A](https://github.com/RealCocoArdo/BitcoinOverview/discussions/categories/q-a) for more informations.
 
 ---
 
 ## Screenshots
+<details>
+<summary>see more</summary>
 
 ![Screenshot of Knowledge.html](screenshots/Knowledge.PNG)
 ![Screenshot of Knowledge.html](screenshots/Knowledge2.PNG)
 ![Mobile screenshot of Knowledge.html](screenshots/MobileKnowledge2.PNG)
 ![Mobile screenshot of Social.html](screenshots/MobileSocial.PNG)
+
+</details>
