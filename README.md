@@ -1,18 +1,12 @@
 # Bitcoin Overview
 
-<p align="left"><a href="https://opensource.org/licenses/MIT" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></img></a></p>
-
-![Screenshot of index.html](screenshots/index2.PNG)
+<p align="center"><img src="screenshots/index2.PNG"></img><a href="https://opensource.org/licenses/MIT" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></img></a>
+</p>
 
 ## Disclamer 
 Bitcoinoverview.org is currently not hosted. I had some issues setting up the DNS etc. Help is appriciated.
 
 However you can visit the [Live-Demo](https://bitcoin-overview.vercel.app/).
-
-### FOSS
-This code has a [MIT License](LICENSE.txt). The backgroundpictures are from [Freepik](https://www.freepik.com/). They need to be credited.
-
-If you want to you can [add](https://github.com/RealCocoArdo/BitcoinOverview#adding-content-to-bitcoinovervieworg) content to the original website [BitcoinOverview.org](https://BitcoinOverview.org) or host your own fork of it.
 
 ---
 
@@ -50,6 +44,17 @@ The design gets adjusted to your browser style mode
 | Light          | :heavy_check_mark: |
 | Dark (Default) | :heavy_check_mark: |
 
+</details>
+
+---
+
+## FOSS
+<details>
+<summary>see more</summary>
+
+This code has a [MIT License](LICENSE.txt). The backgroundpictures are from [Freepik](https://www.freepik.com/). They need to be credited.
+
+If you want to you can [add](https://github.com/RealCocoArdo/BitcoinOverview#adding-content-to-bitcoinovervieworg) content to the original website [BitcoinOverview.org](https://BitcoinOverview.org) or host your own fork of it.
 </details>
 
 ---
