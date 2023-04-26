@@ -3,7 +3,7 @@
 <p align="center"><img src="screenshots/index2.PNG"></img><a href="https://opensource.org/licenses/MIT" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></img></a>
 </p>
 
-## Disclamer 
+## Disclaimer 
 Bitcoinoverview.org is currently not hosted. I had some issues setting up the DNS etc. Help is appriciated.
 
 However you can visit the [Live-Demo](https://bitcoin-overview.vercel.app/).
