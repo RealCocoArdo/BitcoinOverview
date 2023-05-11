@@ -8,21 +8,21 @@ function hide(variable1){
     }
 }
 
-function verify(){
-    var txt;
-    if(confirm("Is Faketoshi a fraud?")){
-        txt = "Success !";
-        demo.style.background = "green";
-        popup.style.display = "none";
-        sensetivdata.style.display = "block";
-    }
-    else{
-        txt = "Failed! Try again!";
-        demo.style.background = "red";
-        sensetivdata.style.display = "none";
-    }
-    document.getElementById("demo").innerHTML = txt;
-}
+// function verify(){
+//     var txt;
+//     if(confirm("Is Faketoshi a fraud?")){
+//         txt = "Success !";
+//         demo.style.background = "green";
+//         popup.style.display = "none";
+//         sensetivdata.style.display = "block";
+//     }
+//     else{
+//         txt = "Failed! Try again!";
+//         demo.style.background = "red";
+//         sensetivdata.style.display = "none";
+//     }
+//     document.getElementById("demo").innerHTML = txt;
+// }
 
 var $$ = document.querySelectorAll.bind( document );
 
