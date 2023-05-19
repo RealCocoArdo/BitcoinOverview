@@ -27,6 +27,7 @@ pages{
         #nodehelp
         #satoshi
         #wikileaks
+        #stratum
     }
 
     PrivacyPolicy.html{
