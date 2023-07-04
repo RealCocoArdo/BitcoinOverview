@@ -60,8 +60,7 @@ If you want to you can [add](https://github.com/RealCocoArdo/BitcoinOverview#add
 ---
 
 ## Adding content to BitcoinOverview.org
-[Help us](https://github.com/RealCocoArdo/BitcoinOverview/blob/main/organisations/HELP.md) or visit our [Q&A](https://github.com/RealCocoArdo/BitcoinOverview/discussions/categories/q-a) for more informations.
-
+[Help us](https://github.com/RealCocoArdo/BitcoinOverview/blob/main/organisations/HELP.md) to help others.
 ---
 
 ## Screenshots
