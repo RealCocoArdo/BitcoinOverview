@@ -73,5 +73,6 @@ subpages{
 
     Wallet.html{
         sections: #1
+        #guides
     }
 }
