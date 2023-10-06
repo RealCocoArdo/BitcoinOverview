@@ -13,8 +13,15 @@
 
         <header>
             <nav id="nav">
-                <div>
-                    <a href="../index.html"><img src="../pictures/BTCLOGO1.PNG" alt="Bitcoin Logo"></a>
+                <div class="dropdown">
+                    <button onclick="dropping()" class="dropbtn">Extra</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="../subpages/Wallet.html">Bitcoin Wallets</a>
+                      <a href="../subpages/Node.html">Setup a Node</a>
+                      <a href="../subpages/Media.html">Bitcoin Media</a>
+                      <a href="../subpages/Overview.html">Other Overviews</a>
+                      <a href="../subpages/Donate.html">Donate for a good cause</a>
+                    </div>
                 </div>
                 <ul class="Topbar">
                     <li><a href="../index.html">Home</a></li>
@@ -24,28 +31,18 @@
                     <li><a href="Social.html">Social</a></li>
                     <li><a href="https://mempool.space" class="currentBlockHeight" id="orange"></a></li>
                 </ul>
+                <div id="mpic">
+                    <a href="../index.html"><img src="../pictures/BTCLOGO1.PNG" alt="Bitcoin Logo"></a>
+                </div>
             </nav>
         </header>
-
-        <section class="sStart" id="0">
-            <ul>
-                <li><a href="#1"><h1>Real life</h1></a></li>
-                <li><a href="#2"><h1>Limited Shipping</h1></a></li>
-                <li><a href="#3"><h1>International</h1></a></li>
-                <li><a href="#4"><h1>Other overview pages</h1></a></li>
-            </ul>
-        </section>
 
         <section class="FirstSection" id="1">
             <h1><b><u>Real life</u></b></h1>
 
             Satimoto (Electric vehicle charging) <br><a href="https://satimoto.com/">https://satimoto.com/</a><br><br>
-
-            <h3>Map's of stores <button onclick="hide('s15')">v</button></h3>
-            <div id="s15">
-                BTC map <br><a href="https://btcmap.org">https://btcmap.org</a><br><br>
-                Coinpages <br><a href="https://coinpages.io/">https://coinpages.io/</a><br><br>
-            </div>
+            BTC map <br><a href="https://btcmap.org">https://btcmap.org</a><br><br>
+            Coinpages <br><a href="https://coinpages.io/">https://coinpages.io/</a><br><br>
 
             <br><a href="#nav" id="top">Get me to the top</a>
         </section>

@@ -13,8 +13,15 @@
 
         <header>
             <nav id="nav">
-                <div>
-                    <a href="../index.html"><img src="../pictures/BTCLOGO1.PNG" alt="Bitcoin Logo"></a>
+                <div class="dropdown">
+                    <button onclick="dropping()" class="dropbtn">Extra</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="../subpages/Wallet.html">Bitcoin Wallets</a>
+                      <a href="../subpages/Node.html">Setup a Node</a>
+                      <a href="../subpages/Media.html">Bitcoin Media</a>
+                      <a href="../subpages/Overview.html">Other Overviews</a>
+                      <a href="../subpages/Donate.html">Donate for a good cause</a>
+                    </div>
                 </div>
                 <ul class="Topbar">
                     <li><a href="../index.html">Home</a></li>
@@ -24,17 +31,11 @@
                     <li><a href="Social.html">Social</a></li>
                     <li><a href="https://mempool.space" class="currentBlockHeight" id="orange"></a></li>
                 </ul>
+                <div id="mpic">
+                    <a href="../index.html"><img src="../pictures/BTCLOGO1.PNG" alt="Bitcoin Logo"></a>
+                </div>
             </nav>
         </header>
-
-        <section class="kStart" id="0">
-            <ul>
-                <li><a href="#1"><h1>Bitcoin explained</h1></a></li>
-                <li><a href="#2"><h1>Get started</h1></a></li>
-                <li><a href="#3"><h1>Additional</h1></a></li>
-                <li><a href="#4"><h1>History</h1></a></li>
-            </ul>
-        </section>
 
         <section class="FirstSection" id="1">
             <h1><b><u>How does Bitcoin work?</u></b></h1>
@@ -44,7 +45,7 @@
                 What's so good about Bitcoin? <br><a href="https://youtu.be/lM3vAM9sbsw">https://youtu.be/lM3vAM9sbsw</a><br><br>
                 <div class="crosslink"><br>Related topics: <br>
                     <a href="../subpages/Media.html">Media </a>|
-                    <a href="../index.html#1">Other Bitcoin websites </a><br></div>
+                    <a href="../subpages/Overview.html#1">Other Bitcoin websites </a><br></div>
             </div>
 
             <br><h3>Detailed explaination (recommented) <button onclick="hide('k2')">v</button></h3>
@@ -58,7 +59,7 @@
                 Lightningnetwork Whitepaper <br><a href="https://lightning.network/lightning-network-paper.pdf">https://lightning.network/lightning-network-paper.pdf</a><br><br>
                 <div class="crosslink"><br>Related topics: <br>
                     <a href="../subpages/Media.html#1">Books </a>|
-                    <a href="../index.html#1">Other Bitcoin websites </a><br></div>
+                    <a href="../subpages/Overview.html#1">Other Bitcoin websites </a><br></div>
             </div>
 
             <br><h3 id="features-explained">Features explained <button onclick="hide('k8')">v</button></h3>
@@ -82,7 +83,7 @@
                     <a href="Knowledge.html#stratum">Stratum </a>|
                     <a href="../subpages/Media.html#1">Books </a>|
                     <a href="Usage.html#1">Tools </a>|
-                    <a href="../index.html#1">Other Bitcoin websites </a><br></div>
+                    <a href="../subpages/Overview.html#1">Other Bitcoin websites </a><br></div>
            </div>
 
             <br><h3>Encyclopedia <button onclick="hide('k3')">v</button></h3>
@@ -93,7 +94,7 @@
                 Bitcoin privacy wiki <br><a href="https://en.bitcoin.it/wiki/Privacy">https://en.bitcoin.it/wiki/Privacy</a><br><br>
                 <div class="crosslink"><br>Related topics: <br>
                     <a href="../subpages/Media.html#1">Books </a>|
-                    <a href="../index.html#1">Other Bitcoin websites </a><br></div>
+                    <a href="../subpages/Overview.html#1">Other Bitcoin websites </a><br></div>
             </div>
 
             <br><h3 id="bitcoin-fixes-this">Bitcoin fixes this <button onclick="hide('k6')">v</button></h3>
@@ -107,7 +108,7 @@
                 A permissionless open monterey system <br><a href="https://tomerstrolight.medium.com/why-you-dont-need-permission-to-use-bitcoin-efdc086eec51">https://tomerstrolight.medium.com/why-you-dont-need-permission-to-use-bitcoin-efdc086eec51</a><br><br>
                 <div class="crosslink"><br>Related topics: <br>
                     <a href="../subpages/Media.html#1">Books </a>|
-                    <a href="../index.html#1">Other Bitcoin websites </a><br></div>
+                    <a href="../subpages/Overview.html#1">Other Bitcoin websites </a><br></div>
             </div>
 
             <br><h3 id="FUD">FUD (Fear, uncertainty and doubt) <button onclick="hide('k4')">v</button></h3>
@@ -132,7 +133,7 @@
                 Bitcoin myths debunked <br><a href="https://darthcoin.substack.com/p/bitcoin-myths-debunked">https://darthcoin.substack.com/p/bitcoin-myths-debunked</a><br><br>
                 Tokenization <br><a href="https://www.fixthemoney.net/p/no-we-are-not-going-to-tokenize-everything">https://www.fixthemoney.net/p/no-we-are-not-going-to-tokenize-everything</a><br><br>
                 <div class="crosslink"><br>Related topics: <br>
-                    <a href="../index.html#1">Other Bitcoin websites </a><br></div>
+                    <a href="../subpages/Overview.html#1">Other Bitcoin websites </a><br></div>
             </div>
 
             <br><a href="#nav" id="top">Get me to the top</a>
@@ -192,7 +193,7 @@
                 </div>
                 <div class="crosslink"><br>Related topics: <br>
                     <a href="../subpages/Media.html#4">Content creators </a>|
-                    <a href="../index.html#1">Other Bitcoin websites </a><br></div>
+                    <a href="../subpages/Overview.html#1">Other Bitcoin websites </a><br></div>
             </div>
 
             <br><h3 id="node">Setup a Node <a href="../subpages/Node.html"><button>v</button></a></h3>
@@ -223,7 +224,7 @@
                 </div>
                 <div class="crosslink"><br>Related topics: <br>
                     <a href="Shops.html#internationalHardware">Hardware shops </a>|
-                    <a href="../index.html#1">Other Bitcoin websites </a><br></div>
+                    <a href="../subpages/Overview.html#1">Other Bitcoin websites </a><br></div>
             </div>
 
             <br><a href="#nav" id="top">Get me to the top</a>
@@ -380,7 +381,7 @@
             <br>Detailed Overview <br><a href="https://en.wikipedia.org/wiki/History_of_bitcoin">https://en.wikipedia.org/wiki/History_of_bitcoin</a><br><br>
             <br><h3>Bitcoin's publication (2008) <button onclick="hide('k25')">v</button></h3>
             <div id="k25">
-                Cyberpunks mailinglist (31 October 2008) <br><a href="https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html">https://www.metzdowd.com/piper.. </a><br><br>
+                Cyberpunks mailinglist (October 31, 2008) <br><a href="https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html">https://www.metzdowd.com/piper.. </a><br><br>
                 P2P Foundation Forum (February 11, 2009) <br><a href="http://p2pfoundation.ning.com/forum/topics/bitcoin-open-source">http://p2pfoundation.ning.com/.. </a><br><br>
             </div>
 
@@ -416,7 +417,7 @@
                 Lesson: Bitcoin is psydonym not anonym.
             </div>
             
-            <br><h3 id="stratum">Invention of the Stratum protocol (2012) <button onclick="hide('k29')">v</button></h3>
+            <br><h3 id="stratum">Invention of stratum (2012) <button onclick="hide('k29')">v</button></h3>
             <div id="k29">    
                 Stratum <br><a href="https://en.bitcoin.it/wiki/Stratum_mining_protocol">https://en.bitcoin.it/wiki/Stratum.. </a><br><br>
                 The new Stratum V2 <br><a href="https://www.youtube.com/watch?v=xrdhtQPHg2o">https://www.youtube.com/watch?v=xrdhtQPHg2o</a><br><br>
@@ -439,13 +440,11 @@
                 The creation of BTC-Cash <br><a href="https://bitcoinmagazine.com/technical/birth-bch-first-crazy-days-bitcoin-cash">https://bitcoinmagazine.com/technical/birth-bch-first-crazy-days-bitcoin-cash</a><br><br>
             </div>
 
-            <br><h3>Further recent History <button onclick="hide('k31')">v</button> </h3>
-            <div id="k31">
-            <a href="Social.html#4">Events explained</a><br><br>
-            </div>
+            <br><h3>Further recent History <a href="Social.html#4"><button>v</button></a></h3>
+
             <div class="crosslink"><br>Related topics: <br>
                 <a href="../subpages/Media.html#1">Books </a>|
-                <a href="../index.html#2">Inventions that made it into Bitcoin </a><br></div>
+                <a href="../subpages/Overview.html#2">Inventions that made it into Bitcoin </a><br></div>
 
             <br><a href="#nav" id="top">Get me to the top</a>
         </section>

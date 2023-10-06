@@ -13,8 +13,15 @@
 
         <header>
             <nav id="nav">
-                <div>
-                    <a href="../index.html"><img src="../pictures/BTCLOGO1.PNG" alt="Bitcoin Logo"></a>
+                <div class="dropdown">
+                    <button onclick="dropping()" class="dropbtn">Extra</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="../subpages/Wallet.html">Bitcoin Wallets</a>
+                      <a href="../subpages/Node.html">Setup a Node</a>
+                      <a href="../subpages/Media.html">Bitcoin Media</a>
+                      <a href="../subpages/Overview.html">Other Overviews</a>
+                      <a href="../subpages/Donate.html">Donate for a good cause</a>
+                    </div>
                 </div>
                 <ul class="Topbar">
                     <li><a href="../index.html">Home</a></li>
@@ -24,17 +31,11 @@
                     <li>Social</li>
                     <li><a href="https://mempool.space" class="currentBlockHeight" id="orange"></a></li>
                 </ul>
+                <div id="mpic">
+                    <a href="../index.html"><img src="../pictures/BTCLOGO1.PNG" alt="Bitcoin Logo"></a>
+                </div>
             </nav>
         </header>
-
-        <section class="soStart" id="0">
-            <ul>
-                <li><a href="#1"><h1>Communities </h1></a></li>
-                <li><a href="#2"><h1>Meetups IRL </h1></a></li>
-                <li><a href="#3"><h1>Language explained </h1></a></li>
-                <li><a href="#4"><h1>Events explained </h1></a></li>
-            </ul>
-        </section>
 
         <section class="FirstSection" id="1">
             <h1><b><u>Communities</u></b></h1>
@@ -152,8 +153,6 @@
                 Nip-05 service <br><a href="https://uselessshit.co/nostr/nip-05/">https://uselessshit.co/nostr/nip-05/</a><br><br>
                 Nostr nests (Like twitter spaces) <br><a href="https://nostrnests.com/">https://nostrnests.com/</a><br><br>              
             </div>
-
-            <br><h4>And many more... </h4><br>
             
             <br><a href="#nav" id="top">Get me to the top</a>
         </section>
@@ -372,7 +371,7 @@
             </div>
             <div class="crosslink"><br>Related topics: <br>
                 <a href="Knowledge.html#4">History-Timeline </a>|
-                <a href="../index.html#1">Other Bitcoin websites </a><br></div>
+                <a href="../subpages/Overview.html#1">Other Bitcoin websites </a><br></div>
             
             <br><a href="#nav" id="top">Get me to the top</a>
         </section>
