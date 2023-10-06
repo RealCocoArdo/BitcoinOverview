@@ -1,20 +1,19 @@
 index{
-    sections: #0 #1 #2
-    #learn
+    sections: #0
 }
 pages{
-    Donate.html{
-        sections: #0 #1 #2
-    }
-
     Imprint.html{
         sections: #0 #1 #2
         #popup
         #sensetivdata
     }
 
+    PrivacyPolicy.html{
+        sections: #0 #1 #2
+    }
+
     Knowledge.html{
-        sections: #0 #1 #2 #3 #4
+        sections: #1 #2 #3 #4
         #features-explained
         #bitcoin-fixes-this
         #FUD
@@ -30,29 +29,21 @@ pages{
         #stratum
     }
 
-    PrivacyPolicy.html{
-        sections: #0 #1 #2
-    }
-
-    Projects.html{
-        sections: #0 #1 #2 #3 #4
-    }
-
     Shops.html{
-        sections: #0 #1 #2 #3 #4
+        sections: #1 #2 #3 #4
         booksEU
         books
         internationalHardware
     }
 
     Social.html{
-        sections: #0 #1 #2 #3 #4
+        sections: #1 #2 #3 #4
         #nostr
         #meetups
     }
 
     Usage.html{
-        sections: #0 #1 #2 #3 #4
+        sections: #1 #2 #3 #4
         #miningcalculator
         #phone
         #sidechains
@@ -60,7 +51,7 @@ pages{
 }
 subpages{
     Donate.html{
-        sections: #0 #1 #2 #3 #4
+        sections: #1 #2 #3 #4
     }
 
     Media.html{
@@ -74,5 +65,9 @@ subpages{
     Wallet.html{
         sections: #1
         #guides
+    }
+    Overview.html{
+        sections: #1 #2
+        #learn
     }
 }
