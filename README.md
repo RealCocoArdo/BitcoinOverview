@@ -1,6 +1,6 @@
 # Bitcoin Overview
 
-<p align="center"><img src="screenshots/index2.PNG"></img><a href="https://opensource.org/licenses/MIT" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></img></a>
+<p align="center"><img src="screenshots/index2V2.PNG"></img><a href="https://opensource.org/licenses/MIT" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></img></a>
 </p>
 
 ## Disclaimer 
@@ -52,7 +52,7 @@ The design gets adjusted to your browser style mode
 <details>
 <summary>see more</summary>
 
-This code has a [MIT License](LICENSE.txt). The backgroundpictures are from [Freepik](https://www.freepik.com/). They need to be credited.
+This code has a [MIT License](LICENSE.txt).
 
 If you want to you can [add](https://github.com/RealCocoArdo/BitcoinOverview#adding-content-to-bitcoinovervieworg) content to the original website [BitcoinOverview.org](https://BitcoinOverview.org) or host your own fork of it.
 </details>
@@ -68,9 +68,10 @@ If you want to you can [add](https://github.com/RealCocoArdo/BitcoinOverview#add
 <details>
 <summary>see more</summary>
 
-![Screenshot of Knowledge.html](screenshots/Knowledge.PNG)
-![Screenshot of Knowledge.html](screenshots/Knowledge2.PNG)
-![Mobile screenshot of Knowledge.html](screenshots/MobileKnowledge2.PNG)
-![Mobile screenshot of Social.html](screenshots/MobileSocial.PNG)
+![Screenshot of Knowledge.html](screenshots/Knowledge2V2.PNG)
+![Screenshot of Donate.html](screenshots/Donate.PNG)
+![Screenshot of Wallet.html](screenshots/WalletV2.PNG)
+![Mobile screenshot of Knowledge.html](screenshots/MobileKnowledge3.PNG)
+![Mobile screenshot of Social.html](screenshots/MobileSocialV2.PNG)
 
 </details>
