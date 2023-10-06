@@ -12,8 +12,15 @@
     <body>
         <header>
             <nav id="nav">
-                <div>
-                    <a href="../index.html"><img src="../pictures/BTCLOGO1.PNG" alt="Bitcoin Logo"></a>
+                <div class="dropdown">
+                    <button onclick="dropping()" class="dropbtn">Extra</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="/subpages/Wallet.html">Bitcoin Wallets</a>
+                        <a href="/subpages/Node.html">Setup a Node</a>
+                        <a href="#" id="blue">Bitcoin Media</a>
+                        <a href="/subpages/Overview.html">Other Overviews</a>
+                        <a href="/subpages/Donate.html">Donate for a good cause</a>
+                    </div>
                 </div>
                 <ul class="Topbar">
                     <li><a href="../index.html">Home</a></li>
@@ -23,6 +30,9 @@
                     <li><a href="../pages/Social.html">Social</a></li>
                     <li><a href="https://mempool.space" class="currentBlockHeight" id="orange"></a></li>
                 </ul>
+                <div id="mpic">
+                    <a href="../index.html"><img src="../pictures/BTCLOGO1.PNG" alt="Bitcoin Logo"></a>
+                </div>
             </nav>
         </header>
 

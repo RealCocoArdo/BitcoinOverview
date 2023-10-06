@@ -12,8 +12,15 @@
     <body>
         <header>
             <nav id="nav">
-                <div>
-                    <a href="../index.html"><img src="../pictures/BTCLOGO1.PNG" alt="Bitcoin Logo"></a>
+                <div class="dropdown">
+                    <button onclick="dropping()" class="dropbtn">Extra</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#" id="blue">Bitcoin Wallets</a>
+                        <a href="/subpages/Node.html">Setup a Node</a>
+                        <a href="/subpages/Media.html">Bitcoin Media</a>
+                        <a href="/subpages/Overview.html">Other Overviews</a>
+                        <a href="/subpages/Donate.html">Donate for a good cause</a>
+                    </div>
                 </div>
                 <ul class="Topbar">
                     <li><a href="../index.html">Home</a></li>
@@ -23,12 +30,15 @@
                     <li><a href="../pages/Social.html">Social</a></li>
                     <li><a href="https://mempool.space" class="currentBlockHeight" id="orange"></a></li>
                 </ul>
+                <div id="mpic">
+                    <a href="../index.html"><img src="../pictures/BTCLOGO1.PNG" alt="Bitcoin Logo"></a>
+                </div>
             </nav>
         </header>
 
         <section class="FirstSection" id="1">
             <a id="top" href="../pages/Knowledge.html#2"><== go back</a>
-            <h2><u>Software and Hardware for Bitcoin Wallets</u></h2>
+            <h2><u>Bitcoin Wallets</u></h2>
 
                 <h4>Air gapped signing devices <button onclick="hide('w1')">v</button></h4>
                 <div id="w1">
@@ -129,7 +139,7 @@
             <div class="crosslink"><br>Related topics: <br>
                 <a href="../pages/Knowledge.html#courses">Consultation & Courses </a>|
                 <a href="../pages/Knowledge.html#2">More Guides </a>|
-                <a href="../index.html#1">Other Bitcoin websites </a><br></div>
+                <a href="Overview.html#1">Other Bitcoin websites </a><br></div>
             </div>
 
             <br><h2><u>Resources</u></h2>
@@ -144,7 +154,7 @@
                 <a href="../pages/Shops.html#internationalHardware">Hardware shops </a>|
                 <a href="../pages/Knowledge.html#features-explained">Features explained </a>|
                 <a href="Media.html#4">Content creators </a>|
-                <a href="../index.html#1">Other Bitcoin websites </a><br></div>
+                <a href="Overview.html#1">Other Bitcoin websites </a><br></div>
             </div>
         </section>
 
