@@ -1,0 +1,70 @@
+A thread why #Bitcoin's PoW solves the oracle problem ⬇️
+
+(from my Twitter 07Jan2023, bc X is closed knowledge)
+
+So what is the oracle problem (op)?
+
+The op is trying to bring real world information into a digital information network (eg Bitcoin) without relying on one or multiable trusted parties (called a oracle).
+
+So what do I mean by real world informations?
+
+When I ask another peer in a network what 2+3 is I can always #verify the result on my own. But when I gonna ask what the current weather in London is I have to trust that peer or ask other trusted peers such as british news channels.
+
+So to conclude #math is conciderd trustless.
+
+So what is PoW?
+
+PoW means proof of work. Its a method to proof that one of your peers did work without trusting someone.
+
+But how does it work trustless you might ask? We can't just settup a camera in their room and watch them work since it would be easy to cheat on it. And the camera would be a trusted partie again.
+
+The answere again is #math.
+
+But we first need to learn a little bit about algorithm based hashfunctions. Bitcoins PoW uses mainly sha256.
+
+The most important part about hashfunctions (here) are that they are not reversable calculations.
+
+What does that mean? When I calculate 2+3=5 I can allways reverse that with enought informations.
+
+If I don't know the 2nd number: 
+2+?=5 
+i can reverse that by calculation -2 on both sides:
+?=5-2 . 
+That lets me know that ?=3 .
+
+But you can't do that with hashfunctions.
+
+The hashfunction Sha1 with an input of the number 137 looks like this:
+Sha-1(137) = e1a864f0b77f6c89794827a9035355dc8d052622
+
+But just a small change to 138 gives you a complety diffrent result:
+Sha-1(138)= 56ad4d4deaec98465c419b4a8ea7bfc1ed38c4d9
+
+Since there is no way to tell if your input was below/above 100 or if it even was a number, because you can input text as well, the only method of getting the input, when you only know the result, is by trying out one input after the other.
+
+Test it out:
+https://xorbin.com/tools/sha1-hash-calculator
+
+How does Bitcoins PoW use the hashfunctions?
+
+When you give someone the task to get you a specific result of sha-1 they have to guess a lot of inputs to get the result. This is conciderd work. 
+
+Getting the right input is the proof that your peer did work for that. (or that they were lucky)
+
+Their solution of the input however is quick verifyable, since calculating only one hash takes far less than a second.
+
+Bitcoin actually however uses a range of results that are concider the right result (Number must start with x amount of 0's). Thats how Bitcoin makes sure you need to provode real work to secure or attack bitcoin.
+
+" But wait?! 
+You didn't explain how I can get the weather in London"
+
+Your right. Because getting these type of informations trustless is impossible. Work is the only realworld information you can get trustless.
+
+*Note that you can reduce the trust by having several validators, but trust is allways a terrible risk. No matter how little. Trust = information centralisation.
+
+Examples of real world informations:
+Price of stocks, stablecoins (price of a currency), a picture, music, videos.
+
+#Cryptocurrencies that use oracles are relying on trust and are doomed to get centralised. When they claim to be decentralised you now know they are a #scam.
+
+Distributed doesn't equal decentralised.
