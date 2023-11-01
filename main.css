@@ -9,6 +9,7 @@ Dark grey      #828282 */
 
  html{
     scroll-behavior: smooth;
+    overflow-x: hidden; 
  }
     h1{
         font-size: 210%;
