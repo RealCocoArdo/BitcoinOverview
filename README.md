@@ -6,8 +6,6 @@
 ## Disclaimer 
 Bitcoinoverview.org is currently not hosted. I had some issues setting up the DNS etc. Help is appriciated.
 
-However you can visit the [Live-Demo](https://bitcoin-overview.vercel.app/).
-
 ---
 
 ## Review the website offline
